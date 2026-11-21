@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing & linting caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment & secrets
+.env
+.env.*
+
+# Runtime workspace & generated media
+work/
+pythainlp-data/
+*.mp4
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.vtt
+*.srt
+*.tmp.*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

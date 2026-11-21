@@ -1,0 +1,18 @@
+# Stage 1: Ingestion & ASR
+yt-dlp>=2026.3.0
+faster-whisper>=1.2.0
+
+# Stage 2: Translation & Thai Text Normalization
+deep-translator>=1.11.4
+pythainlp>=5.4.0
+
+# Stage 3: Thai TTS (Offline ONNX default + Online Neural alternative)
+pythaitts>=1.0.0
+edge-tts>=7.3.0
+
+# Stage 4: Audio Processing & Validation
+soundfile>=0.14.0
+numpy>=2.0.0
+
+# Testing
+pytest>=9.0.0
